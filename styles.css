@@ -138,6 +138,8 @@ blockquote {
 
 cite {
   align-self:flex-end;
+  font-weight:800;
+  margin-top:10px;
 }
 
 .signup-text {
@@ -149,10 +151,13 @@ cite {
   justify-content:space-between;
   padding:50px;
   background-color:#3882F6;
+  color:#E5E7EB;
   border-radius:10px;
   margin:200px;
 }
-
+.bottom-bar {
+  border: 2px solid white;
+}
 .footer {
   display:flex;
   justify-content:center;
