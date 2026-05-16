@@ -1,3 +1,7 @@
+* {
+  margin:0;
+}
+
 body {
   min-height: 100vh;
   margin: 0;
@@ -89,4 +93,49 @@ button {
   flex-direction:column;
   justify-content:center;
   align-items:center;
+  padding:20px 200px;
+}
+
+.main h2 {
+  font-size:36px;
+  color:#1F2937;
+  font-weight:900;
+}
+.cards {
+  display:flex;
+  gap:30px;
+  padding:20px;
+}
+
+.card {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:20px;
+}
+
+.card img {
+  border:3px solid #3882F6;
+  border-radius:8px;
+  width:150px;
+  height:150px;
+}
+
+.quote {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding:200px;
+  background-color:#E5E7EB;
+}
+blockquote {
+  font-size:36px;
+  color:#1F2937;
+  font-weight:300;
+  font-style:italic;
+}
+
+cite {
+  align-self:flex-end;
 }
