@@ -139,3 +139,25 @@ blockquote {
 cite {
   align-self:flex-end;
 }
+
+.signup-text {
+  display:flex;
+  flex-direction:column;
+}
+.signup-bar {
+  display:flex;
+  justify-content:space-between;
+  padding:50px;
+  background-color:#3882F6;
+  border-radius:10px;
+  margin:200px;
+}
+
+.footer {
+  display:flex;
+  justify-content:center;
+  background-color:#1F2937;
+  color:#E5E7EB;
+  align-items:center;
+  padding:40px;
+}
