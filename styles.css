@@ -12,9 +12,7 @@ body {
 
 header {
   background-color:#1F2937;
-  display:flex;
-  flex-direction:column;
-  padding:0 200px;
+  padding:64px 24px;
 }
 
 .top-bar {
@@ -22,6 +20,8 @@ header {
   align-items:center;
   justify-content:space-between;
   padding: 10px 0;
+  max-width:1080px;
+  margin:0 auto;
 }
 
 ul {
@@ -49,8 +49,9 @@ a {
   align-items:center;
   justify-content:center;
   align-content:center;
-  padding:80px 0;
-  gap:60px;
+  padding: 64px 24px;
+  max-width:1080px;
+  margin:0 auto;
 }
 
 .top-content {
@@ -85,7 +86,7 @@ button {
   font-weight:800;
   border-radius:8px;
   border:none;
-  padding:8px 20px;
+  padding:8px 24px;
 }
 
 .main {
@@ -93,7 +94,7 @@ button {
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  padding:20px 200px;
+  padding:48px 24px;
 }
 
 .main h2 {
@@ -103,33 +104,35 @@ button {
 }
 .cards {
   display:flex;
-  gap:30px;
-  padding:20px;
+  flex-wrap:wrap;
+  max-width:1080px;
+  margin:0 auto;
 }
 
 .card {
   display:flex;
+  flex: 0 0 200px;
   flex-direction:column;
   align-items:center;
-  padding:20px;
+  padding:24px;
 }
-
+.card p {
+  text-align:center;
+}
 .card img {
   border:3px solid #3882F6;
   border-radius:8px;
-  width:150px;
-  height:150px;
+  width:160px;
+  height:160px;
 }
 
 .quote {
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-  padding:200px;
+  padding:100px 24px;
   background-color:#E5E7EB;
 }
 blockquote {
+  max-width: 900px;
+  margin:0 auto;
   font-size:36px;
   color:#1F2937;
   font-weight:300;
@@ -137,9 +140,11 @@ blockquote {
 }
 
 cite {
-  align-self:flex-end;
+  display:block;
+  max-width:900px;
+  margin:10px auto 0;
+  text-align:right;
   font-weight:800;
-  margin-top:10px;
 }
 
 .signup-text {
@@ -153,9 +158,11 @@ cite {
   background-color:#3882F6;
   color:#E5E7EB;
   border-radius:10px;
-  margin:200px;
+  margin:100px auto;
+  max-width:1080px;
+  gap:24px;
 }
-.bottom-bar {
+.bottom-button {
   border: 2px solid white;
 }
 .footer {
